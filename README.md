@@ -36,3 +36,19 @@ The experiment requires the same environment as [LargeST](https://github.com/liu
 
 
 <br>
+
+## 📄 Citation
+
+If you find this project helpful, please cite us:
+
+```bibtex
+@article{ma2025bist,
+  title={BiST: A Lightweight and Efficient Bi-directional Model for Spatiotemporal Prediction},
+  author={Ma, Jiaming and Wang, Binwu and Wang, Pengkun and Zhou, Zhengyang and Wang, Xu and Wang, Yang},
+ journal   = {Proc. {VLDB} Endow.},
+  volume    = {18},
+  number    = {6},
+  pages     = {1663--1676},
+  year      = {2025}
+}
+```
