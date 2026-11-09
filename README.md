@@ -1,4 +1,20 @@
-# BiST: A Lightweight and Efficient Bi-directional Model for Spatiotemporal Prediction (VLDB 2025)
+<div align="center">
+
+# BiST: A Lightweight and Efficient Bi-directional Model for Spatiotemporal Prediction
+
+![Venue VLDB%202025](https://img.shields.io/badge/Venue-VLDB%202025-1f6feb)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/PyTorch-%E2%89%A51.10-ee4c2c.svg)](https://pytorch.org/)
+
+<p align="center">
+  <a href="#1-introduction-about-the-datasets">Datasets</a> |
+  <a href="#-citation">Citation</a> |
+  <a href="#-license">License</a>
+</p>
+
+</div>
+
 This is the official repository of our VLDB 2025 paper. This paper introduces BiST, a lightweight yet effective **Bi**-directional **S**patio-**T**emporal prediction model based on an MLP architecture, achieving competitive predictive performance while maintaining low computational complexity and memory usage. This model effectively captures inconsistencies between label and input information to enhance performance. We propose a novel spatiotemporal decoupling module that decomposes spatiotemporal features into node-shared context features and node-specific features. We evaluate the effectiveness of the model on over a dozen datasets, including large-spatial-scale and long-period datasets. Experimental results demonstrate the effectiveness, high training efficiency, and low memory burden of our model.
 
 <img src='Figures/main.png' alt='Main graph of BIST'>
@@ -39,17 +55,25 @@ The experiment requires the same environment as [LargeST](https://github.com/liu
 
 ## 📄 Citation
 
-If you find this project helpful, please cite us:
+If you find this repository useful, please cite our paper:
 
 ```bibtex
 @article{ma2025bist,
-  title={BiST: A Lightweight and Efficient Bi-directional Model for Spatiotemporal Prediction},
-  author={Ma, Jiaming and Wang, Binwu and Wang, Pengkun and Zhou, Zhengyang and Wang, Xu and Wang, Yang},
-  journal={Proceedings of the VLDB Endowment},
-  volume={18},
-  number={6},
-  pages={1663--1676},
-  year={2025},
-  publisher={VLDB Endowment}
+  title     = {{BiST}: A Lightweight and Efficient Bi-directional Model for Spatiotemporal Prediction},
+  author    = {Ma, Jiaming and Wang, Binwu and Wang, Pengkun and Zhou, Zhengyang and Wang, Xu and Wang, Yang},
+  journal   = {Proceedings of the VLDB Endowment},
+  volume    = {18},
+  number    = {6},
+  pages     = {1663--1676},
+  year      = {2025},
+  publisher = {VLDB Endowment}
 }
 ```
+
+## 🙏 Acknowledgements
+
+Built on [LargeST](https://github.com/liuxu77/LargeST), [XTraffic](https://xaitraffic.github.io/) and [XXLTraffic](https://github.com/cruiseresearchgroup/XXLTraffic). Each dataset keeps the license of its original release.
+
+## 📜 License
+
+The code in this repository is released under the [MIT License](LICENSE).
